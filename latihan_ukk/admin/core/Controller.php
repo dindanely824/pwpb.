@@ -2,5 +2,8 @@
 
 class Controller
 {
-    //kita selesaikan nanti
+    public function view($view,$data=[])
+    {
+        require_once '../admin/views/'.$view.'.php';
+    }
 }

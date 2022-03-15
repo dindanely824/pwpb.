@@ -4,6 +4,6 @@ class Portofolio extends Controller
 {
     public function index()
     {
-         echo "Ini controller portofolio";
+         $this->view('portofolio/index');//menargetkan ke index.php yang ada di folder views/portofolio
     }
 }
